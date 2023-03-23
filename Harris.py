@@ -244,7 +244,7 @@ def getMask(img, Harris_img):
     return dst
 
 # 导入图像
-filename = r'C:\Users\18493\Desktop\cam_0\1.jpg'
+filename = r'C:\Users\18493\Desktop\Scanned\0 .jpg'
 # filename = 'ex0302.jpg'
 # filename = 'ex0303.bmp'
 img = cv2.imread(filename)

@@ -74,7 +74,7 @@ def edge_cut(pathImage,method='bin2'):
     os.system("explorer.exe %s" % start_directory)
     return count
 if __name__ == '__main__':
-    pathImage = r'C:\Users\18493\Desktop\cam_0'
+    pathImage = r'C:\Users\18493\Desktop\Scanned'
     count=edge_cut(pathImage=pathImage,method='bin2')
     print(f'共处理{count}张图片')
 

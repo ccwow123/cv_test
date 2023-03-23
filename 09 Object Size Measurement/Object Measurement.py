@@ -3,7 +3,7 @@ import utlis
  
 ###################################
 webcam = False
-path = r'D:\Files\220910\0907\data_dataset_voc\SegmentationClass'
+path = r'09 Object Size Measurement/1.jpg'
 cap = cv2.VideoCapture(0)
 cap.set(10,160)#第一参数为标号，具体看https://blog.csdn.net/weixin_47965042/article/details/113359922
 cap.set(3,1920)
@@ -16,7 +16,7 @@ while True:
     if webcam:success,img = cap.read()#其中success是布尔值，如果读取帧是正确的则返回True，如果文件读取到结尾，它的返回值就为False
     else: img = cv2.imread(path)
  
-    imgContours , conts = utlis.getContours(img,minArea=500,filter=4)
+    imgContours , conts = utlis.getContours(img,minArea=5,filter=4)
     if len(conts) != 0:#为了判断最大轮廓中的内容是否是空的，我们需要内容
         biggest = conts[0][2]#轮廓列表中最大的轮廓。即第0个
         #print(biggest)
