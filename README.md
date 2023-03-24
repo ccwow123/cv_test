@@ -19,6 +19,10 @@
     method = 'gauss' 使用高斯
 # [获取面积](%BB%F1%C8%A1%C3%E6%BB%FD)
 进行语义分割面积计算的子函数 忘记那个有用了
+# [Hough](Hough)
+使用霍夫变换找圆的程序————[Hough.py](Hough%2FHough.py)
+
+使用plt显示图片的程序————[main.py](Hough%2Fmain.py)
 # 其他
 批量二值化函数——[binary.py](binary.py)
 忘记了——[Harris.py](Harris.py)

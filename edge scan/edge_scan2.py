@@ -149,7 +149,7 @@ def edge_scan(pathImage=None, heightImg=640, widthImg=480,method='bin',webCamFee
 
 if __name__ == '__main__':
     webCamFeed = False  # True 开启摄像头
-    pathImage = r'C:\Users\18493\Desktop\MV\img'  # 关闭摄像头时图片文件夹
+    pathImage = r'D:\Files\Learning\cv_test\test_imgs'  # 关闭摄像头时图片文件夹
     heightImg = 320
     widthImg = 320
     method='bin'  # bin 二值化
